@@ -12,7 +12,7 @@ On Firefox:
 	save the file as "logins.csv" in the same directory as password_checker.c
 Alternativly, using the included logins.csv for proof of concept will work
 	
-3.) The rockyou.txt file resides in the same directory as password_checker.c. This has been included for convenience.
+3.) The rockyou.txt file resides in the same directory as password_checker.c. This has not been included due to size constraints, and must be independantly downloaded.
 Theorectically, any newline separated wordlist should work, provided it is named rockyou.txt and resides in the same directory as password_checker.c
 	
 4.) To compile password_checker.c, be sure to include -lsqlite3.
